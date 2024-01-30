@@ -45,7 +45,7 @@ export class AuthService{
 
     async logout(){
         try {
-            await this.account.deleteSession('current');
+            await this.account.deleteSessions('current');
         } catch (error) {
             console.log("logout error" , error);
         }
