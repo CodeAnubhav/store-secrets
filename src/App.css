@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +41,10 @@
 
 .read-the-docs {
   color: #888;
+}
+
+
+/* custom css */
+.navbar-txt{
+  font-family: 'Rubik Doodle Shadow', system-ui;
 }
